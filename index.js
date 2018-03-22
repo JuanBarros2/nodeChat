@@ -1,6 +1,6 @@
 let app = require('./config/server.js');
 
-let server = app.listen(80, function(){
+let server = app.listen(process.env.PORT || 8080, function(){
     console.log('Servidor online');
 });
 
