@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "6.13.1"
-  },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "npm install"
+    },
+  "engines": {
+    "node": "6.13.1",
+    "npm": "^5.5.1"
   },
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JuanBarros2/nodeChat.git"
